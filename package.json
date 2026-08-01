@@ -1,0 +1,32 @@
+{
+  "name": "sarada-md-v3",
+  "version": "3.3",
+  "description": "WhatsApp MD bot - POWERED BY THE SLIME TECH EMPIRE",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm install && node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.0.0",
+    "node-fetch": "^3.3.2",
+    "axios": "latest",
+    "file-type": "^19.0.0",
+    "cheerio": "^1.0.0",
+    "sharp": "^0.33.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.3",
+    "form-data": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "moment": "^2.29.4",
+    "fish-audio": "^0.1.0",
+    "mumaker": "^2.0.0",
+    "ruhend-scraper": "^8.3.0",
+    "@distube/ytdl-core": "^4.16.12"
+
+  }
+}
