@@ -19,7 +19,7 @@ jobs:
         run: sudo apt-get install -y unzip
 
       - name: Extract zip
-        run: unzip new_TOUTE_DERNIÈRE_VERSION.zip -d extracted_content
+        run: unzip "*.zip" -d extracted_content
 
       - name: Commit extracted files
         run: |
