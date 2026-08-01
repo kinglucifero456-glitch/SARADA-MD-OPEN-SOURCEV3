@@ -2,8 +2,8 @@ name: Unzip archive
 
 on:
   push:
-    branches:
-      - main   # déclenche l’action à chaque push sur main
+    paths:
+      - "*.zip"   # déclenche seulement si un zip est ajouté
 
 jobs:
   unzip:
